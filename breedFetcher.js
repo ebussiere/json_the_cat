@@ -16,7 +16,7 @@ const getBreeds = function() {
         if (data.length === 0) {
           console.log("Breed not found");
         } else {
-          console.log(data);
+          console.log(data[0].description);
         }
       } else {
         console.log("An Error Occured");
